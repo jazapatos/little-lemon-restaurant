@@ -5,10 +5,12 @@ const Header = () => {
    
   
     return (
-        <>
-        <img src={lemonLogo} alt="Litte lemon logo" />
-        <Nav />
-        </>
+        <div className="headerContainer">
+        <div className="header">
+            <img height="50px" className="logo" src={lemonLogo} alt="Litte lemon logo" />
+            <Nav />
+        </div>
+        </div>
     );
   };
 export default Header;
