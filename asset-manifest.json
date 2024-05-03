@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/capstone/static/css/main.5eaa73cd.css",
-    "main.js": "/capstone/static/js/main.e4b54850.js",
-    "static/js/453.7b154009.chunk.js": "/capstone/static/js/453.7b154009.chunk.js",
-    "static/media/Mario and Adrian b.jpg": "/capstone/static/media/Mario and Adrian b.6ba0e06bfa9c1ea75109.jpg",
-    "static/media/bruchetta.svg": "/capstone/static/media/bruchetta.40310f42c67ccfe9571e5e5127e98059.svg",
-    "static/media/greek salad.jpg": "/capstone/static/media/greek salad.bed423a1fab5b210e347.jpg",
-    "static/media/restauranfood.jpg": "/capstone/static/media/restauranfood.e8abf5b772b6817189aa.jpg",
-    "static/media/restaurant.jpg": "/capstone/static/media/restaurant.324d0f99bdf19400a0f7.jpg",
-    "static/media/Asset 20@4x.png": "/capstone/static/media/Asset 20@4x.2c859235d6c57bb54176.png",
-    "static/media/Logo.svg": "/capstone/static/media/Logo.f72c913c48c5334f78f2c336ec36f22b.svg",
-    "index.html": "/capstone/index.html",
-    "main.5eaa73cd.css.map": "/capstone/static/css/main.5eaa73cd.css.map",
-    "main.e4b54850.js.map": "/capstone/static/js/main.e4b54850.js.map",
-    "453.7b154009.chunk.js.map": "/capstone/static/js/453.7b154009.chunk.js.map"
+    "main.css": "/little-lemon-restaurant/static/css/main.5eaa73cd.css",
+    "main.js": "/little-lemon-restaurant/static/js/main.17784992.js",
+    "static/js/453.7b154009.chunk.js": "/little-lemon-restaurant/static/js/453.7b154009.chunk.js",
+    "static/media/Mario and Adrian b.jpg": "/little-lemon-restaurant/static/media/Mario and Adrian b.6ba0e06bfa9c1ea75109.jpg",
+    "static/media/bruchetta.svg": "/little-lemon-restaurant/static/media/bruchetta.40310f42c67ccfe9571e5e5127e98059.svg",
+    "static/media/greek salad.jpg": "/little-lemon-restaurant/static/media/greek salad.bed423a1fab5b210e347.jpg",
+    "static/media/restauranfood.jpg": "/little-lemon-restaurant/static/media/restauranfood.e8abf5b772b6817189aa.jpg",
+    "static/media/restaurant.jpg": "/little-lemon-restaurant/static/media/restaurant.324d0f99bdf19400a0f7.jpg",
+    "static/media/Asset 20@4x.png": "/little-lemon-restaurant/static/media/Asset 20@4x.2c859235d6c57bb54176.png",
+    "static/media/Logo.svg": "/little-lemon-restaurant/static/media/Logo.f72c913c48c5334f78f2c336ec36f22b.svg",
+    "index.html": "/little-lemon-restaurant/index.html",
+    "main.5eaa73cd.css.map": "/little-lemon-restaurant/static/css/main.5eaa73cd.css.map",
+    "main.17784992.js.map": "/little-lemon-restaurant/static/js/main.17784992.js.map",
+    "453.7b154009.chunk.js.map": "/little-lemon-restaurant/static/js/453.7b154009.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5eaa73cd.css",
-    "static/js/main.e4b54850.js"
+    "static/js/main.17784992.js"
   ]
 }
