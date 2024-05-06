@@ -85,7 +85,7 @@ const Main = () => {
   return (
   <>
   <Routes>
-    <Route path="/" element={
+    <Route path="/little-lemon-restaurant" element={
       <>
     <CallToAction />
     <Specials />

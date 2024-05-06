@@ -6,7 +6,7 @@ const Specials = () => {
 
   return (
     <>
-        <div className="specialsContainer">
+        <div id="menu" className="specialsContainer">
         
                 <section className="specials">
             <div className="specialsHeader">
@@ -21,7 +21,7 @@ const Specials = () => {
                         <p className="karla">The famous greek salad of crisp lettuce, peppers,
                             olives and our Chicago style feta cheese, garnished with crunchy
                             garlic and roseary croutons.</p>
-                        <a href="#"><b>Order a delivery &rsaquo;</b></a>
+                        <a href="#menu"><b>Order a delivery &rsaquo;</b></a>
                     </div>
                 </div>
                 <div class="card one">
@@ -29,7 +29,7 @@ const Specials = () => {
                     <div class="cardContainer">
                         <h4 className="markazi"><b>Bruchetta</b><span>$5.99</span></h4>
                         <p className="karla">Our Bruschetta is made from homemade grilled bread that has been smeared with garlic and seasoned with salt and olive oil. Topped with fresh vegetables.</p>
-                        <a href="#"><b>Order a delivery &rsaquo;</b></a>
+                        <a href="#menu"><b>Order a delivery &rsaquo;</b></a>
                     </div>
                 </div>
                 <div class="card one">
@@ -37,7 +37,7 @@ const Specials = () => {
                     <div class="cardContainer">
                         <h4 className="markazi"><b>Lemon Cake</b><span>$5.00</span></h4>
                         <p className="karla">This comes straight from grandma’s recipe book, every last ingredient has been sourced and is as authentic as can be imagined.</p>
-                        <a href="#"><b>Order a delivery &rsaquo;</b></a>
+                        <a href="#menu"><b>Order a delivery &rsaquo;</b></a>
                         </div>
                         
                     
