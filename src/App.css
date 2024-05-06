@@ -551,3 +551,23 @@ nav{
   margin-right: -70px;  
   z-index: -1;
 }
+
+/* ------------ FOOTER ------------ */
+
+.reserveForm{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  grid-row: 2;  
+  grid-column: 3 / span 8;
+}
+
+.confirmedBooking{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  grid-row: 2;  
+  grid-column: 3 / span 8;
+}
