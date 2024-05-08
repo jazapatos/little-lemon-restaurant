@@ -9,8 +9,10 @@ const Nav = () => {
     navigate(path);
   };
 
+  
+
   return (
-  <nav>
+    <nav>
     <ul className="ul nav karla">
       <li><Link to="/little-lemon-restaurant">Home</Link></li>
       <li><a href="#about" onClick={() => handleNavigate('/little-lemon-restaurant#about')}>About</a></li>

@@ -91,7 +91,7 @@ const BookingForm = ({ availableTimes, onDateChange, onSubmit }) => {
       }}
     >
         {({ setFieldValue, isValid, dirty }) => (
-        <Form style={{ display: "grid", width: "400px", gap: "15px" }}>
+        <Form className="form">
         <label htmlFor="firstName">First Name*</label>
         <Field id="firstName" name="firstName" placeholder="Jane" type="text"/>
         <ErrorMessage name="firstName" component="div" className="error" />

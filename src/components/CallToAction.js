@@ -4,8 +4,13 @@ import { useNavigate } from 'react-router-dom';
 
 const CallToAction = () => {
   const navigate = useNavigate();
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
   const navigateToBooking = () => {
     navigate('/booking');
+    scrollToTop();
   };
   
   return (
