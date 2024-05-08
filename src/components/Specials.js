@@ -1,6 +1,6 @@
 import React from "react";
 import cardImage1 from "../img/greek salad.jpg"
-import cardImage2 from "../img/bruchetta.svg"
+import cardImage2 from "../img/bruchetta.jpg"
 import cardImage3 from "../img/lemon dessert.jpg"
 const Specials = () => {
 
