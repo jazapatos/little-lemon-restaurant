@@ -1,4 +1,7 @@
 import React from "react";
+import tPerson1 from "../img/tPerson1.jpg";
+import tPerson2 from "../img/tPerson2.jpg";
+
 const Testimonials = () => {
 
   return (
@@ -14,7 +17,7 @@ const Testimonials = () => {
                     <div className="tContents">
                     <p>⭐⭐⭐⭐⭐</p>
                     <div className="imagename">
-                    <img src="https://i.pravatar.cc/150?img=11" height="46pt" alt="avatar 1" />
+                    <img src={tPerson1} height="46pt" alt="avatar 1" />
                     <span className="karla"><b>George</b></span></div>
                     <p className="tReview karla">“The ambiance and exquisite flavors at this restaurant 
                         transported me to a culinary paradise I never wanted to leave!”
@@ -45,7 +48,7 @@ const Testimonials = () => {
                     <div className="tContents">
                     <p>⭐⭐⭐⭐⭐</p>
                     <div className="imagename">
-                    <img src="https://i.pravatar.cc/150?img=51" height="46pt" alt="avatar 1" />
+                    <img src={tPerson2} height="46pt" alt="avatar 1" />
                     <span className="karla"><b>William</b></span></div>
                     <p className="tReview karla">“The attention to detail in every meal and the exceptional service make this restaurant a treasure in the heart of the city.”
                         </p>
