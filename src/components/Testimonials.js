@@ -18,7 +18,7 @@ const Testimonials = () => {
                     <p>⭐⭐⭐⭐⭐</p>
                     <div className="imagename">
                     <img src={tPerson1} height="46pt" alt="avatar 1" />
-                    <span className="karla"><b>George</b></span></div>
+                    <span className="karla"><b>Herbert</b></span></div>
                     <p className="tReview karla">“The ambiance and exquisite flavors at this restaurant 
                         transported me to a culinary paradise I never wanted to leave!”
                         </p>
@@ -49,7 +49,7 @@ const Testimonials = () => {
                     <p>⭐⭐⭐⭐⭐</p>
                     <div className="imagename">
                     <img src={tPerson2} height="46pt" alt="avatar 1" />
-                    <span className="karla"><b>William</b></span></div>
+                    <span className="karla"><b>Aton</b></span></div>
                     <p className="tReview karla">“The attention to detail in every meal and the exceptional service make this restaurant a treasure in the heart of the city.”
                         </p>
                     </div>
