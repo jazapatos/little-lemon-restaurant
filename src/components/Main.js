@@ -8,6 +8,7 @@ import { Routes, Route } from 'react-router-dom';
 import ConfirmedBooking from './ConfirmedBooking';
 import { useNavigate } from 'react-router-dom';
 
+//Simulating the booking API because it's blocked by Chrome
 const seededRandom = function (seed) {
   var m = 2**35 - 31;
   var a = 185852;

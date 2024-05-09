@@ -62,9 +62,9 @@ const BookingForm = ({ availableTimes, onDateChange, onSubmit }) => {
   return (
   
   <div className="reserveForm karla">
-    <heading>
+    <header>
         <p className="markazi bookNow">Book a Table</p>
-            </heading>
+            </header>
             <p className="karla required">* Required fields</p>
     <Formik
       initialValues={{
@@ -93,12 +93,12 @@ const BookingForm = ({ availableTimes, onDateChange, onSubmit }) => {
         {({ setFieldValue, isValid, dirty }) => (
         <Form className="form">
         <label htmlFor="firstName">First Name*</label>
-        <Field id="firstName" name="firstName" placeholder="Jane" type="text"/>
+        <Field id="firstName" name="firstName" placeholder="Jane" type="text" aria-label="First Name"/>
         <ErrorMessage name="firstName" component="div" className="error" />
 
         <label htmlFor="">Last Name*</label>
-        <Field id="lastName" name="lastName" placeholder="Doe" type="text"/>
-        <ErrorMessage name="lastName" component="div" className="error" />
+        <Field id="lastName" name="lastName" placeholder="Doe" type="text" aria-label="Last Name"/>
+        <ErrorMessage name="lastName" component="div" className="error" aria-live="assertive"/>
 
         <label htmlFor="email">Email*</label>
         <Field
@@ -106,12 +106,13 @@ const BookingForm = ({ availableTimes, onDateChange, onSubmit }) => {
           name="email"
           placeholder="jane@acme.com"
           type="email"
+          aria-label="E-mail"
         />
         <ErrorMessage name="email" component="div" className="error" />
 
         <label htmlFor="mobileNumber">Mobile number*</label>
-        <Field id="mobileNumber" name="mobileNumber" placeholder="11-digit Phone Number" type="text"/>
-        <ErrorMessage name="mobileNumber" component="div" className="error" />
+        <Field id="mobileNumber" name="mobileNumber" placeholder="11-digit Phone Number" type="text" aria-label="Mobile Number"/>
+        <ErrorMessage name="mobileNumber" component="div" className="error" aria-live="assertive"/>
   
         <label htmlFor="res-date">Choose date*</label>
         <Field
@@ -125,23 +126,25 @@ const BookingForm = ({ availableTimes, onDateChange, onSubmit }) => {
                 setFieldValue('reservationDate', selectedDate.toISOString().split('T')[0]);
                 onDateChange(selectedDate);
               }}
+              aria-label="Choose reservation date"
             />
-        <ErrorMessage name="reservationDate" component="div" className="error" />
+        <ErrorMessage name="reservationDate" component="div" className="error" aria-live="assertive"/>
 
 
-        <label for="res-time">Choose time*</label>
+        <label htmlFor="res-time">Choose time*</label>
         <Field as="select" id="res-time" name="reservationTime" value={reservationTime} onChange={(e) => {
               setFieldValue('reservationTime', e.target.value);
               setReservationTime(e.target.value);
-            }}>
+            }} 
+            aria-label="Choose reservation time">
             <option value="">Select a time</option>
-                {availableTimes.map((time, index) => (
+                {availableTimes && availableTimes.map((time, index) => (
                     <option key={index} value={time}>
                 {time}
             </option>
         ))}
         </Field>
-         <ErrorMessage name="res-time" component="div" className="error" />
+         <ErrorMessage name="res-time" component="div" className="error" aria-live="assertive"/>
 
         <label htmlFor="guests">Number of guests*</label>
         <Field
@@ -156,20 +159,22 @@ const BookingForm = ({ availableTimes, onDateChange, onSubmit }) => {
                 setFieldValue('guests', e.target.value);
                 setGuests(e.target.value);
               }}
+              aria-label="Number of guests"
             />
-        <ErrorMessage name="guests" component="div" className="error" />
+        <ErrorMessage name="guests" component="div" className="error" aria-live="assertive"/>
 
         <label htmlFor="occasion">Occasion</label>
         <Field as="select" id="occasion" name="occasion" value={occasion} onChange={(e) => {
               setFieldValue('occasion', e.target.value);
               setOccasion(e.target.value);
-            }}>
+            }}
+            aria-label="Occasion">
             <option>Birthday</option>
             <option>Anniversary</option>
         </Field>
-        <ErrorMessage name="occassion" component="div" className="error" />
+        <ErrorMessage name="occassion" component="div" className="error" aria-live="assertive" />
     
-        <button type="submit" disabled={!isValid || !dirty}  onClick={() => {
+        <button type="submit" aria-label="Make Your Reservation" disabled={!isValid || !dirty}  onClick={() => {
     // Scroll to the top of the page
     scrollToTop();
   }}>Make Your Reservation</button>
